@@ -81,16 +81,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://medium.com/@accetanandhmca/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -103,7 +93,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/64657/Portfolio.git"
+                href="https://github.com/64657"
                 target="_blank"
                 className="fork-btn-inner"
               >
