@@ -43,10 +43,8 @@ function Footer() {
             </li>
             <li className="social-icons">
             <Link
-                to={{ pathname: "https://www.linkedin.com/in/mohammed-faseeullah-a25a71202/" }}
+                to="https://www.linkedin.com/in/mohammed-faseeullah-a25a71202/" 
                 style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </Link>
