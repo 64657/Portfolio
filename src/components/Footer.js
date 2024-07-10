@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -41,14 +42,14 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/mohammed-faseeullah-a25a71202/"
+            <Link
+                to={{ pathname: "https://www.linkedin.com/in/mohammed-faseeullah-a25a71202/" }}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
+              </Link>
             </li>
             <li className="social-icons">
               <a
